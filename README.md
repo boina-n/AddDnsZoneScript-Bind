@@ -1,6 +1,6 @@
 # AddDnsZoneScript-Bind
 
-Developped by Olivier BRUN
+Developed by Olivier BRUN
 
 #### Script to manage DNS Zone creation with Bind9  
 
@@ -48,6 +48,6 @@ Using zone creation scripts.
    - Bug fix, when the autozones.conf file is transfered to remote servers ("" missing).
    - Change in the includes file name : includes.cfg instead of includes.sh.
    - Change in the README.txt file.  
-  
+
   Version 2.3 :  
    - Bug fix, in case of a MASTERS_LIST or SLAVES_LIST > 2.
