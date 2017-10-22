@@ -9,11 +9,11 @@ Using zone creation scripts.
 1. Introduction :  
   This tool has been developped to help DNS administrators to add new zones/domains on their authoritative servers based on BIND.
 
-  As a prerequisite, we recommend you to read the DNS general document from the DNS Skill Center : "DNS_Internet_Orange_Group.docx".  
+    As a prerequisite, we recommend you to read the DNS general document from the DNS Skill Center : "DNS_Internet_Orange_Group.docx".  
 
-  Starting from a domain name and a template on a name server, it modifies and creates the local configuration files and restarts the service. In parallel, it does the same job remotely on the second name server.  
+    Starting from a domain name and a template on a name server, it modifies and creates the local configuration files and restarts the service. In parallel, it does the same job remotely on the second name server.  
 
-  Name server where script is executed will be called "primary". The second name server will be "secondary".
+    Name server where script is executed will be called "primary". The second name server will be "secondary".
 
 1. Usage :  
   ./addzone.sh -d your_domain  
