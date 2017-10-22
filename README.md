@@ -1,4 +1,6 @@
-## AddDnsZoneScript-Bind
+# AddDnsZoneScript-Bind
+
+Developped by Olivier BRUN
 
 #### Script to manage DNS Zone creation with Bind9  
 
@@ -37,7 +39,7 @@ Using zone creation scripts.
   The zone/domain is created from a template with minimal information (SOA and NS records). After using the script, you will probably need to edit the db file to add additional records (CNAME, A, etc.).
   On a master/slave configuration, every change to a zone will be automatically transfered from master to slave. But on a master/master configuration while making a change on a the primary name server, do not forget to do the same on the second one.
 
-  0Thanks to the Orange Kenya teams who provided us with the first version of the script.
+  Thanks to the Orange Kenya teams who provided us with the first version of the script.
 
 7. Changelog
 
