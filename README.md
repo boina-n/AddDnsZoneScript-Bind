@@ -16,9 +16,9 @@ Using zone creation scripts.
     Name server where script is executed will be called "primary". The second name server will be "secondary".
 
 1. Usage :  
-  ./addzone.sh -d your_domain  
+    ./addzone.sh -d your_domain  
 
-  Every parameters specific to your DNS architecture (server names and IP addresses, path) have been exported to the includes.cfg files. Do not forget to edit this file before using the script.
+    Every parameters specific to your DNS architecture (server names and IP addresses, path) have been exported to the includes.cfg files. Do not forget to edit this file before using the script.
 
 1. Prerequisites :
    ssh need to be operational between the name servers. It means the primary name server must be able to connect (ssh) and transfer (scp) to the secondary.
